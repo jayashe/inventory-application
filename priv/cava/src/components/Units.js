@@ -4,8 +4,8 @@ import {Table, TableHead, TableRow, TableCell} from 'react-toolbox/lib/table';
 import Button from 'react-toolbox/lib/button/Button';
 
 import UnitDialog from './UnitDialog';
-import * as utils from './utils';
-import * as actions from './actions';
+import * as utils from '../utils/utils';
+import * as actions from '../utils/actions';
 
 import './Flashcards.css';
 
@@ -14,7 +14,7 @@ class Units extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { 
+    this.state = {
       unitInDialog: null,
       units: null
     };

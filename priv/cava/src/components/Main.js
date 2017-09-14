@@ -3,8 +3,8 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Flashcards from './Flashcards';
 import Content from './Content';
-import * as utils from './utils';
-import * as actions from './actions';
+import * as utils from '../utils/utils';
+import * as actions from '../utils/actions';
 import './Main.css';
 
 class Main extends Component {
@@ -139,7 +139,7 @@ class Main extends Component {
           />
           <Content
             selectedPage={selectedPage}
-            units={units}            
+            units={units}
             items={items}
             inventory={inventory}
             selectedFlashcardIndex={selectedFlashcardIndex}

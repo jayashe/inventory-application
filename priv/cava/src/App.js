@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { getQueryParams } from './utils';
-import Login from './Login';
-import Main from './Main';
+import { getQueryParams } from './utils/utils';
+import Login from './components/Login';
+import Main from './components/Main';
 import './App.css';
 
 class App extends Component {
